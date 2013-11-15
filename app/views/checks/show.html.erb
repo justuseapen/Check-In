@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @check.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @check.last_name %>
+</p>
+
+<p>
+  <strong>Timestamp:</strong>
+  <%= @check.created_at %>
+</p>
+
+<%= link_to 'Edit', edit_check_path(@check) %> |
+<%= link_to 'Back', checks_path %>
